@@ -5,6 +5,7 @@ import { Link } from "react-router";
 const Login = () => {
   const { signInWithGoogle } = use(AuthContext);
 
+// google sign in method
   const handleGoogleSignIn = () => {
     signInWithGoogle()
       .then((result) => {
